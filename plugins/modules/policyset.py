@@ -89,7 +89,7 @@ options:
 
 EXAMPLES = r'''
 - name: "Creating a PolicySet"
-  ocmplus.cm.pollicyset:
+  stolostron.incubator.pollicyset:
     hub_kubeconfig: /path/to/hub/kubeconfig
     namespace: default
     manifest_dir: /path/to/manifest_dir
@@ -150,7 +150,7 @@ except ImportError as e:
                       'exception': e}
 
 
-LABEL_KEY = 'ocmplus.cm.policyset/created'
+LABEL_KEY = 'stolostron.incubator.policyset/created'
 LABEL = {LABEL_KEY: 'true'}
 
 PLACEMENT_RULE_TEMPLATE = """

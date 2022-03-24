@@ -4,7 +4,7 @@
   hosts: localhost
   tasks:
   - name: "Import EKS cluster"
-    ocmplus.cm.import_eks:
+    stolostron.incubator.import_eks:
       eks_cluster_name: "{{ item }}"
       hub_kubeconfig: "{{ hub_kubeconfig }}"
       addons:

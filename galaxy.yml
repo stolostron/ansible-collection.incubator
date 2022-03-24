@@ -2,10 +2,10 @@
 # The namespace of the collection. This can be a company/brand/organization or product namespace under which all
 # content lives. May only contain alphanumeric lowercase characters and underscores. Namespaces cannot start with
 # underscores or numbers and cannot contain consecutive underscores
-namespace: ocmplus
+namespace: stolostron
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: cm
+name: incubator
 
 # The version of the collection. Must be compatible with semantic versioning
 version: 0.0.1
@@ -16,11 +16,11 @@ readme: README.md
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
-- 'ACM Team <acm-contact@redhat.com>'
+  - "ACM Team <acm-contact@redhat.com>"
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
-description: An Ansible Collection for use with the stolostron and ocmplus projects, as well as the Red Hat Advanced Cluster Management for Kubernetes and MultiCluster Engine Products.  
+description: An Ansible Collection for use with the stolostron and stolostron projects, as well as the Red Hat Advanced Cluster Management for Kubernetes and MultiCluster Engine Products.
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
@@ -29,38 +29,39 @@ description: An Ansible Collection for use with the stolostron and ocmplus proje
 
 # The path to the license file for the collection. This path is relative to the root of the collection. This key is
 # mutually exclusive with 'license'
-license_file: 'LICENSE'
+license_file: "LICENSE"
 
 # A list of tags you want to associate with the collection for indexing/searching. A tag name has the same character
 # requirements as 'namespace' and 'name'
-tags: [
-  'acm',
-  'rhacm',
-  'hybrid_cloud',
-  'multicluster',
-  'advanced_cluster_management',
-  'management',
-  'kubernetes'
-]
+tags:
+  [
+    "acm",
+    "rhacm",
+    "hybrid_cloud",
+    "multicluster",
+    "advanced_cluster_management",
+    "management",
+    "kubernetes",
+  ]
 
 # Collections that this collection requires to be installed for it to be usable. The key of the dict is the
 # collection label 'namespace.name'. The value is a version range
 # L(specifiers,https://python-semanticversion.readthedocs.io/en/latest/#requirement-specification). Multiple version
 # range specifiers can be set and are separated by ','
 dependencies:
-  amazon.aws: '>=3.0.0'
+  amazon.aws: ">=3.0.0"
 
 # The URL of the originating SCM repository
-repository: https://github.com/stolostron/ocmplus.cm
+repository: https://github.com/stolostron/incubator
 
 # The URL to any online docs
-documentation: https://github.com/stolostron/ocmplus.cm
+documentation: https://github.com/stolostron/incubator
 
 # The URL to the homepage of the collection/project
 homepage: https://github.com/stolostron
 
 # The URL to the collection issue tracker
-issues: https://github.com/stolostron/ocmplus.cm/issues
+issues: https://github.com/stolostron/incubator/issues
 
 # A list of file glob-like patterns used to filter any files or directories that should not be included in the build
 # artifact. A pattern is matched from the relative path of the file or directory of the collection directory. This
