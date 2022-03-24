@@ -20,7 +20,7 @@ ocm_detach (pending)
 
 ## Modules
 
-[ocmplus.cm.import_eks](plugins/modules/import_eks.py)
+[incubator.import_eks](plugins/modules/import_eks.py)
 
 ## Tests
 
@@ -32,12 +32,12 @@ Running sanity test:
 
 ### Integration Test
 
-[Integration test for `ocmplus.cm.import_eks`](tests/integration/targets/import_eks/README.md)
+[Integration test for `incubator.import_eks`](tests/integration/targets/import_eks/README.md)
 
 ## Disclaimer
 
-This Ansible Collection is still in development but aims to expose OCM/ACM's functionality through a useful and simple Ansible Collection.  Some features may not be prsent, may be fully implemented, and may be buggy.  
+This Ansible Collection is still in development but aims to expose OCM/ACM's functionality through a useful and simple Ansible Collection. Some features may not be prsent, may be fully implemented, and may be buggy.
 
 ## Contributing
 
-See our [Contributing Document](CONTRIBUTING.md) for more information.  
+See our [Contributing Document](CONTRIBUTING.md) for more information.
