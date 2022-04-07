@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 env:
-  NAMESPACE: ocmplus
-  COLLECTION_NAME: cm
+  NAMESPACE: stolostron
+  COLLECTION_NAME: incubator
   COLLECTION_VERSION: 0.0.1 
 
 jobs:
