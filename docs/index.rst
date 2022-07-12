@@ -1,9 +1,9 @@
 :orphan:
 
-.. _plugins_in_ocmplus.cm:
+.. _plugins_in_stolostron.incubator:
 
-Ocmplus.Cm
-==========
+Stolostron.Incubator
+====================
 
 Collection version 0.0.1
 
@@ -13,23 +13,14 @@ Collection version 0.0.1
 Plugin Index
 ------------
 
-These are the plugins in the ocmplus.cm collection
+These are the plugins in the stolostron.incubator collection
 
-
-Inventory Plugins
-~~~~~~~~~~~~~~~~~
-
-* :ref:`ocm_managedcluster <ansible_collections.ocmplus.cm.ocm_managedcluster_inventory>` -- OCM managedcluster inventory
 
 Modules
 ~~~~~~~
 
-* :ref:`cluster_management_addon <ansible_collections.ocmplus.cm.cluster_management_addon_module>` -- cluster management addon
-* :ref:`cluster_proxy <ansible_collections.ocmplus.cm.cluster_proxy_module>` -- cluster proxy
-* :ref:`import_eks <ansible_collections.ocmplus.cm.import_eks_module>` -- Import an AWS EKS cluster into an ACM Hub cluster
-* :ref:`managed_serviceaccount <ansible_collections.ocmplus.cm.managed_serviceaccount_module>` -- managed serviceaccount
-* :ref:`managed_serviceaccount_rbac <ansible_collections.ocmplus.cm.managed_serviceaccount_rbac_module>` -- managed-serviceaccount RBAC
-* :ref:`managedcluster_addon <ansible_collections.ocmplus.cm.managedcluster_addon_module>` -- managed cluster addon
+* :ref:`import_eks <ansible_collections.stolostron.incubator.import_eks_module>` -- Import an AWS EKS cluster into an ACM Hub cluster
+* :ref:`policyset <ansible_collections.stolostron.incubator.policyset_module>` -- Create/Update/Delete PolicySet, Policies, PlacementRule, and PlacementBinding
 
 
 .. seealso::

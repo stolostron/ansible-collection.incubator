@@ -4,7 +4,7 @@
 
 .. Anchors
 
-.. _ansible_collections.ocmplus.cm.import_eks_module:
+.. _ansible_collections.stolostron.incubator.import_eks_module:
 
 .. Anchors: short name for ansible.builtin
 
@@ -14,17 +14,17 @@
 
 .. Title
 
-ocmplus.cm.import_eks -- Import an AWS EKS cluster into an ACM Hub cluster
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+stolostron.incubator.import_eks -- Import an AWS EKS cluster into an ACM Hub cluster
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. Collection note
 
 .. note::
-    This plugin is part of the `ocmplus.cm collection <https://galaxy.ansible.com/ocmplus/cm>`_ (version 0.0.1).
+    This plugin is part of the `stolostron.incubator collection <https://galaxy.ansible.com/stolostron/incubator>`_ (version 0.0.1).
 
-    To install it use: :code:`ansible-galaxy collection install ocmplus.cm`.
+    To install it use: :code:`ansible-galaxy collection install stolostron.incubator`.
 
-    To use it in a playbook, specify: :code:`ocmplus.cm.import_eks`.
+    To use it in a playbook, specify: :code:`stolostron.incubator.import_eks`.
 
 .. version_added
 
@@ -457,7 +457,7 @@ Examples
 
     
     - name: "Import EKS cluster"
-      ocmplus.cm.import_eks:
+      stolostron.incubator.import_eks:
         eks_cluster_name: "xxxxx"
         hub_kubeconfig: "/path/to/kubeconfig"
         addons:
